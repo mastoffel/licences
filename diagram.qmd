@@ -1,0 +1,51 @@
+---
+title: "Software Licenses Overview"
+format: 
+    html:
+        mermaid:
+            theme: default
+            code-fold: true
+        theme: custom.scss
+ 
+---
+
+```{mermaid}
+graph TD
+    A[Software Licenses] --> B[Proprietary]
+    A --> C[Open Source]
+    A --> D[Hybrid]
+
+    B --> B1[Commercial]
+    B --> B2[Freeware]
+    B --> B3[Shareware]
+
+    C --> C1[Permissive]
+    C --> C2[Copyleft]
+
+    C1 --> C1a[MIT]
+    C1 --> C1b[Apache]
+    C1 --> C1c[BSD]
+
+    C2 --> C2a[GPL]
+    C2 --> C2b[MPL]
+    C2 --> C2c[CC-SA]
+
+
+    D --> D1[Dual Licensing]
+    D --> D2[Multi Licensing]
+
+    classDef large font-size:48px;
+    classDef medium font-size:38px;
+    classDef small font-size: 28px;
+    class A large;
+    class B medium;
+    class C medium;
+    class D medium;
+    class B1 small;
+    class B2 small;
+    class B3 small;
+    class C1 small;
+    class C2 small;
+    class D1 small;
+    class D2 small;
+```

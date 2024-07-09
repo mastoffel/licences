@@ -1,0 +1,34 @@
+/*-- scss:defaults --*/
+
+// Define your dark theme colors
+$body-bg: #404040;
+$body-color: #f7efef;
+$primary: #3498db;
+$secondary: #7C7C7C;
+
+// Override Mermaid variables
+// $mermaid-bg-color: $body-bg;
+// $mermaid-edge-color: $secondary;
+// $mermaid-node-fg-color: $body-color;
+// $mermaid-fg-color: $body-color;
+// $mermaid-fg-color--lighter: lighten($body-color, 10%);
+// $mermaid-fg-color--lightest: lighten($body-color, 20%);
+// $mermaid-font-family: sans-serif;
+// $mermaid-label-bg-color: $body-bg;
+// $mermaid-label-fg-color: $primary;
+// $mermaid-node-bg-color: rgba($primary, 0.1);
+// $mermaid-node-fg-color: $primary;
+
+$mermaid-bg-color: $body-bg;
+$mermaid-edge-color: $secondary;
+$mermaid-node-fg-color: $body-color;
+$mermaid-fg-color: $body-color;
+$mermaid-fg-color--lighter: lighten($body-color, 10%);
+$mermaid-fg-color--lightest: lighten($body-color, 20%);
+// $mermaid-font-family: $font-family-sans-serif;
+$mermaid-label-bg-color: $body-bg;
+$mermaid-label-fg-color: $primary;
+$mermaid-node-bg-color: rgba($primary, 0.1);
+$mermaid-node-fg-color: $primary;
+
+/*-- scss:rules --*/
